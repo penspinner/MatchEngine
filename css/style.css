@@ -1,3 +1,26 @@
 
+#reactContainer
+{
+    background: #95DAE7;
+/*
+    background: -webkit-linear-gradient(left top, #437C9E, #89B4CA, #95DAE7);
+    background: -o-linear-gradient(bottom right, #437C9E, #89B4CA, #95DAE7);
+    background: -moz-linear-gradient(bottom right, #437C9E, #89B4CA, #95DAE7);
+*/
+    background: linear-gradient(to bottom right, #437C9E, #89B4CA, #95DAE7); 
+}
 
-.column {  }
+.container
+{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.column 
+{
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: white;
+    margin: 10px;
+    max-height: 100vh;
+}
