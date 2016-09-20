@@ -7,6 +7,7 @@
         <!-- jQuery -->
         <link href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.min.css" rel="stylesheet" type="text/css" />
         <script src="https://code.jquery.com/jquery.min.js"></script>
+        <script src="js/lib/jquery.confirm.js"></script>
 
         <!-- Bootstrap -->
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -22,6 +23,12 @@
     
     <body>
         <div id="reactContainer"></div>
+        <script src="js/ReportMatches.js" type="text/babel"></script>
+        <script src="js/OrderBook.js" type="text/babel"></script>
+        <script src="js/OrderForm.js" type="text/babel"></script>
         <script src="js/MatchEngine.js" type="text/babel"></script>
+        <script type="text/babel">
+            React.render(<MatchEngine/>, document.getElementById("reactContainer"));
+        </script>
     </body>
 </html>

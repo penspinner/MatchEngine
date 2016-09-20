@@ -18,7 +18,8 @@
     background-color: white;
     height: 95%;
     border: 1px solid black;
-    max-height: 100vh;
+    max-height: 100%;
     overflow: auto;
 }
 
+.none { display: none; }
