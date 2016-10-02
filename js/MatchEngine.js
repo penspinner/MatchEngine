@@ -107,17 +107,6 @@ var MatchEngine = React.createClass
                     dialogClass: "modal-dialog modal-sm"
                 });
                 
-                // This means someone bought all quantities of the order
-//                if (sizeDif == 0)
-//                {
-//                    // Delete the order from the order book
-//                    orders.splice(i, 1);
-//                } else
-//                {
-//                    // Change the size of the order
-//                    orders[i].size = sizeDif;
-//                }
-                
                 return;
             } 
             // SELL
