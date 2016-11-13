@@ -1,0 +1,28 @@
+{
+  "name": "match_engine",
+  "version": "1.0.0",
+  "description": "The match engine accepts orders specifying instrument, price, and side and report matches (trades).",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Penspinner/MatchEngine.git"
+  },
+  "author": "Steven Liao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Penspinner/MatchEngine/issues"
+  },
+  "homepage": "https://github.com/Penspinner/MatchEngine#readme",
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-browserify": "^0.5.1",
+    "gulp-react": "^3.1.0",
+    "gulp-webserver": "^0.8.8",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "reactify": "^1.1.1"
+  }
+}

@@ -1,3 +1,8 @@
+var React = require('react');
+var ReactDOM = require('react-dom');
+var OrderBook = require('./OrderBook');
+var OrderForm = require('./OrderForm');
+var ReportMatches = require('./ReportMatches');
 
 var MatchEngine = React.createClass
 ({
@@ -182,4 +187,6 @@ var MatchEngine = React.createClass
     
 });
 
-window.MatchEngine = MatchEngine;
+ReactDOM.render(<MatchEngine/>, document.getElementById("reactContainer"));
+
+//window.MatchEngine = MatchEngine;

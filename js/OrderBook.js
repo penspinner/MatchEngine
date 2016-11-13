@@ -1,3 +1,5 @@
+var React = require('react');
+
 var OrderBook = React.createClass
 ({
     loadTestData: function()
@@ -87,4 +89,5 @@ var OrderBook = React.createClass
     }
 });
 
-window.OrderBook = OrderBook;
+module.exports = OrderBook;
+//window.OrderBook = OrderBook;

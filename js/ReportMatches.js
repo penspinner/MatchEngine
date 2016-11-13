@@ -1,3 +1,5 @@
+var React = require('react');
+
 var ReportMatches = React.createClass
 ({
     clearMatchedOrders: function()
@@ -65,4 +67,5 @@ var ReportMatches = React.createClass
     }
 });
 
-window.ReportMatches = ReportMatches;
+module.exports = ReportMatches;
+// window.ReportMatches = ReportMatches;

@@ -1,3 +1,5 @@
+var React = require('react');
+
 var OrderForm = React.createClass
 ({
     getInitialState: function()
@@ -64,19 +66,19 @@ var OrderForm = React.createClass
             <form id="orderForm" onSubmit={this.placeOrder}>
                 <h3>Order Form</h3>
                 <div className="form-group">
-                    <label for="instrument">Instrument</label>
+                    <label htmlFor="instrument">Instrument</label>
                     <input onChange={this.handleInstrumentChange} type="text" className="form-control"/>
                 </div>
                 <div className="form-group">
-                    <label for="price">Price</label>
+                    <label htmlFor="price">Price</label>
                     <input onChange={this.handlePriceChange} type="number" className="form-control"/>
                 </div>
                 <div className="form-group">
-                    <label for="size">Size</label>
+                    <label htmlFor="size">Size</label>
                     <input onChange={this.handleSizeChange} type="number" className="form-control"/>
                 </div>
                 <div className="form-group">
-                    <label for="side">Side</label>
+                    <label htmlFor="side">Side</label>
                     <select onChange={this.handleSideChange} className="form-control">
                         <option>BUY</option>
                         <option>SELL</option>
@@ -90,4 +92,5 @@ var OrderForm = React.createClass
     }
 });
 
-window.OrderForm = OrderForm;
+module.exports = OrderForm;
+// window.OrderForm = OrderForm;
